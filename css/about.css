@@ -1,0 +1,99 @@
+.about {
+    display: flex; 
+    justify-content:left;
+    align-items: center; 
+    padding: 30px;
+    gap: 30px;
+}
+
+.jn{
+    max-width: 30%; 
+    height: auto;
+    border-radius: 20px;
+    margin-left: 100px;
+    box-shadow: 1px 1px 3px 3px #ddd6f6;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.about .jn:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px 5px #261E47;
+    transition: 0.5s;
+}
+
+.about h1{
+    font-family: 微軟正黑體;
+    font-size: 40px;
+    margin: 0px;
+    text-align: left;
+}
+
+.about-article {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+}
+
+.about-article ul {
+    text-align: justify;
+    list-style: none;
+    line-height: 2.5;
+}
+
+.aboutme {
+    margin-top: -35px;
+    font-size: 20px;
+    transition: 0.3s;  
+}
+
+.aboutme a {
+    color:#333;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.aboutme:hover a {
+    font-size: 25px;
+    color:#920f08;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.slogan01{
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: "微軟正黑體";
+    margin-right: auto;
+    transition: 0.5s;
+}
+
+.slogan01:hover {
+    padding-top: 20px;
+    font-size: 25px;
+    color: #261E47;
+    font-weight: 700px;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+.slogan02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "微軟正黑體";
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.slogan02:hover {
+    padding-top: 18px;
+    font-size: 24px;
+    color: #261E47;
+    font-weight: 700;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
